@@ -1,0 +1,39 @@
+body {
+    background: #eee1ff;
+}
+
+.login_wrap .login_card_wrap {
+    position: relative;
+    text-align: right;
+    width: 778px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    background-image: url(images/1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login_wrap .login_card_wrap button {
+    padding: 8px 16px;
+    margin: 12px 10px 0px 0px;
+    border-radius: 50px;
+    color: #fff;
+    border: blue;
+    background: blue;
+    max-height: 288px;
+}
+
+@media only screen and (max-width: 768px) {
+    .login_wrap .login_card_wrap {
+        width: auto;
+        max-height: 578px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .login_wrap .login_card_wrap {
+        width: auto;
+        max-height: 288px;
+    }
+}
